@@ -28,6 +28,15 @@ export function About() {
             />
           </div>
         </div>
+        <div className="space-y-6">
+          <h2 className="text-4xl font-bold">SOBRE</h2>
+          <p>
+            Until one has loved an animal, a part of their soul remains asleep.
+            We believe this, and we believe in easy access to things that are
+            good for our mind, body, and spirit. With smart offerings, excellent
+            support, and secure checkout, you’re in good hands.
+          </p>
+        </div>
       </div>
     </section>
   );
