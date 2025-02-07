@@ -1,6 +1,7 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import dogImg from "../../../public/hero-dog.webp";
 import Image from "next/image";
+import catImg from "../../../public/cat-hero.png";
 export function Hero() {
   return (
     <section className="bg-[#E84C3D] text-white relative overflow-hidden">
@@ -39,6 +40,16 @@ export function Hero() {
                 <b className="bg-black text-white px-2 py-1 rounded-md">5%</b>{" "}
                 de desconto na primeira compra.
               </p>
+              <div className="flex mt-4">
+                <div className="w-32">
+                  <Image
+                    src={catImg}
+                    alt="Foto do gato"
+                    quality={100}
+                    className="object-fill"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div className="hidden md:block h-full relative">
