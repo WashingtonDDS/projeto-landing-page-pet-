@@ -1,6 +1,8 @@
 import Image from "next/image";
 import about1Img from "../../../public/about-1.png";
 import about2Img from "../../../public/about-2.png";
+import { Check, MapPin } from "lucide-react";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return (
@@ -36,6 +38,36 @@ export function About() {
             good for our mind, body, and spirit. With smart offerings, excellent
             support, and secure checkout, you’re in good hands.
           </p>
+          <ul className="space-y-4">
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500" />
+              Aberto desde 2006
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500" />
+              Equipe com mais de 10 veterinarios.
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500" />
+              Qualidade é nossa prioridade
+            </li>
+          </ul>
+          <div>
+            <a
+              href="#"
+              className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2"
+            >
+              <WhatsappLogo className="w-5 h-5 text-white" />
+              Contato via WhatsApp
+            </a>
+            <a
+              href="#"
+              className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2"
+            >
+              <MapPin className="w-5 h-5 text-white" />
+              Endereço da loja
+            </a>
+          </div>
         </div>
       </div>
     </section>
