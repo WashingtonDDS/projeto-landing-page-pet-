@@ -41,7 +41,7 @@ export function Hero() {
                 de desconto na primeira compra.
               </p>
               <div className="flex mt-4">
-                <div className="w-32">
+                <div className="w-32 hidden lg:block">
                   <Image
                     src={catImg}
                     alt="Foto do gato"
