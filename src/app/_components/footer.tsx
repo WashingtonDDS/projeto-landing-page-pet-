@@ -62,6 +62,26 @@ export function Footer() {
                 Contato via WhatsApp
               </a>
             </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
+              <p>Email: teste@teste.com</p>
+              <p>Telefone: (XX) 1231831238</p>
+              <p>Rua X, centro, Campo Grande | MS</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
+              <div className="flex gap-4">
+                <a href="#" target="_blank">
+                  <FacebookLogo className="w-8 h-8" />
+                </a>
+                <a href="#" target="_blank">
+                  <InstagramLogo className="w-8 h-8" />
+                </a>
+                <a href="#" target="_blank">
+                  <YoutubeLogo className="w-8 h-8" />
+                </a>
+              </div>
+            </div>
           </footer>
         </div>
       </div>
