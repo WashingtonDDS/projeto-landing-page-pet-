@@ -9,7 +9,11 @@ export function About() {
     <section className="bg-[#FDF6ec] py-16 ">
       <div className="container px-4 mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+          >
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={about1Img}
@@ -31,7 +35,11 @@ export function About() {
               />
             </div>
           </div>
-          <div className="space-y-6 mt-10">
+          <div
+            className="space-y-6 mt-10"
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+          >
             <h2 className="text-4xl font-bold">SOBRE</h2>
             <p>
               Until one has loved an animal, a part of their soul remains
