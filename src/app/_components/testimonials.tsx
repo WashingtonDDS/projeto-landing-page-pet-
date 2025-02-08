@@ -3,16 +3,7 @@ import tutor1 from "../../../public/tutor1.png";
 import tutor2 from "../../../public/tutor2.png";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Scissors,
-  Syringe,
-  CarTaxiFront,
-  Hotel,
-  Clock,
-} from "lucide-react";
-import { WhatsappLogo } from "@phosphor-icons/react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
